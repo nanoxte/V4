@@ -27,7 +27,7 @@ API_HASH = environ.get('API_HASH', 'd538c2e1a687d414f5c3dce7bf4a743c') #api hash
 if len(API_HASH) == 0:
     print('Error - API_HASH is missing, exiting now')
     exit()
-BOT_TOKEN = environ.get('BOT_TOKEN', '7122607428:AAHyLbTg8En2WNnqiXko4vxol1vJVznn6gs') #bot token from botfather
+BOT_TOKEN = environ.get('BOT_TOKEN', '7188145451:AAEg8Db3pZtuVMQkBHy1SEPwm6AHc06bKEQ') #bot token from botfather
 if len(BOT_TOKEN) == 0:
     print('Error - BOT_TOKEN is missing, exiting now')
     exit()
@@ -73,7 +73,7 @@ if len(DATABASE_URL) == 0:
     print('Error - DATABASE_URL is missing, exiting now')
     exit()
 DATABASE_NAME = environ.get('DATABASE_NAME', "tera")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files')
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'seeu_bin')
 
 # Links
 SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/seeu_movi')
